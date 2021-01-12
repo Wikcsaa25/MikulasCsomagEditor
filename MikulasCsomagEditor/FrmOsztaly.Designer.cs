@@ -67,6 +67,7 @@ namespace MikulasCsomagEditor
             this.osztalyTB.ReadOnly = true;
             this.osztalyTB.Size = new System.Drawing.Size(254, 28);
             this.osztalyTB.TabIndex = 2;
+            this.osztalyTB.TextChanged += new System.EventHandler(this.osztalyTB_TextChanged);
             // 
             // hozzaadas
             // 

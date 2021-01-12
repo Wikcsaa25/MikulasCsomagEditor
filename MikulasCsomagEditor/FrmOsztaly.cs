@@ -34,7 +34,6 @@ namespace MikulasCsomagEditor
             if (File.Exists(tallozasTB.Text))
             {
                 osztalyTB.ReadOnly = false;
-                hozzaadas.Enabled = true;
             }
             else
             {
@@ -45,7 +44,7 @@ namespace MikulasCsomagEditor
 
         private void hozzaadas_Click(object sender, EventArgs e)
         {
-            using(StreamReader sr = new StreamReader(tallozasTB.Text))
+            using (StreamReader sr = new StreamReader(tallozasTB.Text))
             {
                 connection.Open();
                 while (!sr.EndOfStream)
@@ -53,7 +52,17 @@ namespace MikulasCsomagEditor
                     int command = new SqlCommand($"insert into emberek values('{sr.ReadLine()}', '{osztalyTB.Text}');", connection).ExecuteNonQuery();
                 }
                 connection.Close();
+                MessageBox.Show("Sikeres névsorbeolvasás!");
+                FrmOsztaly.ActiveForm.Close();
             }
+        }
+
+        private void osztalyTB_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(osztalyTB.Text))
+                hozzaadas.Enabled = false;
+            else
+                hozzaadas.Enabled = true;
         }
     }
 }
