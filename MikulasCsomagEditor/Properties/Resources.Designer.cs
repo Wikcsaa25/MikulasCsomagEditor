@@ -71,6 +71,16 @@ namespace MikulasCsomagEditor.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon favicon {
+            get {
+                object obj = ResourceManager.GetObject("favicon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] mikulas {
@@ -86,6 +96,26 @@ namespace MikulasCsomagEditor.Properties {
         internal static byte[] mikulas_log {
             get {
                 object obj = ResourceManager.GetObject("mikulas_log", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] proba {
+            get {
+                object obj = ResourceManager.GetObject("proba", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] proba_log {
+            get {
+                object obj = ResourceManager.GetObject("proba_log", resourceCulture);
                 return ((byte[])(obj));
             }
         }

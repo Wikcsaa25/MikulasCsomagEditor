@@ -29,6 +29,7 @@ namespace MikulasCsomagEditor
         /// </summary>
         private void InitializeComponent()
         {
+            this.Icon = MikulasCsomagEditor.Properties.Resources.favicon;
             this.button1 = new System.Windows.Forms.Button();
             this.sorsolas = new System.Windows.Forms.Button();
             this.epito = new System.Windows.Forms.Button();
@@ -106,6 +107,7 @@ namespace MikulasCsomagEditor
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMain";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

@@ -121,10 +121,19 @@
   <data name="csomag_BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\csomag_BG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mikulas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mikulas.mdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="mikulas_log" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mikulas_log.ldf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="proba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proba.mdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="proba_log" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proba_log.ldf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

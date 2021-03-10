@@ -51,5 +51,10 @@ namespace MikulasCsomagEditor
             FrmCsomagEpito frm = new FrmCsomagEpito(connectionString);
             frm.ShowDialog();
         }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
